@@ -6,19 +6,24 @@
   <a href="https://github.com/SyscallBrain?tab=repositories"><img src="https://img.shields.io/badge/repos-browse-7aa2f7?style=flat-square&labelColor=1a1b26&logo=github&logoColor=c0caf5" alt="Browse repositories"></a>
   <a href="https://crates.io/crates/quotop"><img src="https://img.shields.io/crates/v/quotop?style=flat-square&label=quotop%20on%20crates.io&color=ff9e64&labelColor=1a1b26&logo=rust&logoColor=c0caf5" alt="quotop on crates.io"></a>
   <a href="https://syscallbrain.github.io/virsh-tui/"><img src="https://img.shields.io/badge/virsh--tui-docs-9ece6a?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="virsh-tui documentation"></a>
-  <img src="https://komarev.com/ghpvc/?username=SyscallBrain&style=flat-square&color=bb9af7&label=profile+views" alt="Profile views">
+  <a href="https://syscallbrain.github.io/lictor/"><img src="https://img.shields.io/badge/lictor-docs-bb9af7?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="Lictor documentation"></a>
 </p>
 
 ## 👋 Hi, I'm Tiago
 
-I build software I want to use myself, and I make sure it treats the people using it with respect.
+I build software I want to use myself, and I hold it to the standard I expect as a user: private, fast, documented, and proven to work.
 
-- 🦀 **In the terminal**, I write keyboard-driven TUIs in **Rust** with [ratatui](https://ratatui.rs): a full manager for KVM/libvirt virtual machines and a dashboard for API quotas.
+- 🦀 **In the terminal**, I write keyboard-driven tools in **Rust** with [ratatui](https://ratatui.rs): a full manager for KVM/libvirt virtual machines, a dashboard for API quotas and a watcher for coding agents running in parallel.
 - 📱 **On Android**, I make **Kotlin + Jetpack Compose** apps and games that run fully offline, with no ads, no accounts and no tracking.
+- 🧪 **I prefer proof to promises**: my games run on deterministic engines, and every level of the Night series ships with a machine-checked solution certificate.
 - 🐧 **Day to day**, I live on Linux and care about virtualization, tooling and small, fast binaries.
 - 🇵🇹 Some of my games are made first for **European Portuguese**, a language most word games ignore.
 
-## 🚀 Featured projects
+<img src="assets/stats.svg" alt="4 Rust terminal tools, 8 Android apps and games, 7,200 certified level variants, and 0 apps that ask for internet access" width="100%">
+
+## 🦀 Terminal tools
+
+Keyboard-driven Rust tools built on [ratatui](https://ratatui.rs), each shipped as a single fast binary.
 
 <table>
   <tr>
@@ -26,16 +31,56 @@ I build software I want to use myself, and I make sure it treats the people usin
     <td width="50%"><a href="https://github.com/SyscallBrain/quotop"><img src="assets/cards/quotop.svg" alt="quotop: terminal dashboard for API balances and quotas" width="100%"></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/SyscallBrain/bubble-night"><img src="assets/cards/bubble-night.svg" alt="Bubble Night: offline bubble shooter for Android" width="100%"></a></td>
-    <td width="50%"><a href="https://github.com/SyscallBrain/PalavrasCruzadas"><img src="assets/cards/palavrascruzadas.svg" alt="Palavras Cruzadas: offline crossword game in European Portuguese" width="100%"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://github.com/SyscallBrain/SopaDeLetras"><img src="assets/cards/sopadeletras.svg" alt="Sopa de Letras: word search for Android" width="100%"></a></td>
-    <td width="50%"><a href="https://github.com/SyscallBrain/SmokeTracker"><img src="assets/cards/smoketracker.svg" alt="SmokeTracker: one-tap cigarette counter for Android" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SyscallBrain/lictor"><img src="assets/cards/lictor.svg" alt="lictor: watches every terminal and coding agent in Herdr" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SyscallBrain/todo-ratatui"><img src="assets/cards/todo-ratatui.svg" alt="todo-ratatui: to-do manager TUI with categories, priorities and a crash-proof trash bin" width="100%"></a></td>
   </tr>
 </table>
 
-<sub>Also: <a href="https://github.com/SyscallBrain/todo-ratatui"><b>todo-ratatui</b></a>, a to-do manager TUI with categories, priorities, search and a trash bin that survives <code>kill -9</code>.</sub>
+## 🌙 The Night series
+
+Four offline Android games built on one foundation: a deterministic Kotlin engine shared by the game and its offline solver, 600 levels in three separately tuned difficulties, and a **solution certificate for every one of the 1,800 variants**. CI replays all of them, so an impossible level can never ship. The only permission they ask for is `VIBRATE`.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SyscallBrain/bubble-night"><img src="assets/night/bubble-night.jpg" alt="Bubble Night: an offline bubble shooter for Android" width="100%"></a>
+      <br><b><a href="https://github.com/SyscallBrain/bubble-night">Bubble Night</a></b> · bubble shooter
+      <br><sub>600 constellations across 12 orbits</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SyscallBrain/block-night"><img src="assets/night/block-night.jpg" alt="Block Night: an offline falling-blocks game for Android" width="100%"></a>
+      <br><b><a href="https://github.com/SyscallBrain/block-night">Block Night</a></b> · falling blocks
+      <br><sub>600 floors across 12 Lisbon districts</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SyscallBrain/night-fleet"><img src="assets/night/night-fleet.jpg" alt="Night Fleet: an offline naval battle for Android" width="100%"></a>
+      <br><b><a href="https://github.com/SyscallBrain/night-fleet">Night Fleet</a></b> · naval battle
+      <br><sub>600 missions against 12 admirals who never cheat</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SyscallBrain/duck-night"><img src="assets/night/duck-night.jpg" alt="Duck Night: photograph ducks at dusk" width="100%"></a>
+      <br><b><a href="https://github.com/SyscallBrain/duck-night">Duck Night</a></b> · reflex game
+      <br><sub>Photograph ducks at dusk: 600 levels, 48 birds</sub>
+    </td>
+  </tr>
+</table>
+
+## 📱 More for Android
+
+Word games written for European Portuguese, a pixel-art arcade game, and a habit tracker that keeps your data on your phone.
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/SyscallBrain/PalavrasCruzadas"><img src="assets/cards/palavrascruzadas.svg" alt="Palavras Cruzadas: offline crossword game in European Portuguese" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SyscallBrain/SopaDeLetras"><img src="assets/cards/sopadeletras.svg" alt="Sopa de Letras: word search for Android" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/SyscallBrain/Kaboom"><img src="assets/cards/kaboom.svg" alt="Kaboom: maze bomber in 16-bit pixel art for Android" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SyscallBrain/SmokeTracker"><img src="assets/cards/smoketracker.svg" alt="SmokeTracker: one-tap cigarette counter for Android" width="100%"></a></td>
+  </tr>
+</table>
 
 <details>
 <summary><b>📸 Screenshots</b></summary>
@@ -49,9 +94,15 @@ I build software I want to use myself, and I make sure it treats the people usin
 
 <img src="https://raw.githubusercontent.com/SyscallBrain/quotop/main/docs/screenshot.svg" alt="quotop showing the balances and quotas of several API services" width="100%">
 
-**Android apps**: Bubble Night, Palavras Cruzadas and Sopa de Letras
+**lictor**: a live, read-only mirror of two rotating lanes in Herdr
 
-<img src="https://raw.githubusercontent.com/SyscallBrain/bubble-night/main/docs/screenshots/banner.jpg" alt="Bubble Night banner" width="100%">
+<img src="https://raw.githubusercontent.com/SyscallBrain/lictor/main/docs/src/images/mirror.png" alt="A Lictor mirror tab in Herdr: a workspace with its agent and server log on the left, a blocked agent asking for permission on the right" width="100%">
+
+**Kaboom**: the four worlds, every sprite drawn in code
+
+<img src="https://raw.githubusercontent.com/SyscallBrain/Kaboom/master/docs/worlds.png" alt="The four Kaboom worlds: The Meadow, The Desert, The Ice and The Castle" width="100%">
+
+**Palavras Cruzadas** and **Sopa de Letras**
 
 <p>
   <img src="https://raw.githubusercontent.com/SyscallBrain/PalavrasCruzadas/main/docs/screenshots/game.jpg" alt="Palavras Cruzadas crossword grid" width="49%">
@@ -60,14 +111,15 @@ I build software I want to use myself, and I make sure it treats the people usin
 
 </details>
 
-## 🧭 What my projects have in common
+## 🧭 How I build
 
 | Principle | In practice |
 |---|---|
-| 🔒 **Private by default** | Offline-first, with no ads, no accounts and no analytics. SmokeTracker doesn't even ask for the `INTERNET` permission. |
-| ⌨️ **Keyboard first** | Vim keys, discoverable shortcuts, and every destructive action shown before it runs. |
-| 🧪 **Proven, not hoped** | CI on every repo. Bubble Night ships 1,800 machine-checked solution certificates, so every level is known to be solvable. |
-| 📖 **Documented** | Real screenshots, install guides, changelogs and an [mdBook site](https://syscallbrain.github.io/virsh-tui/) for virsh-tui. |
+| 🔒 **Private by default** | None of my eight Android apps asks for the `INTERNET` permission, so they *can't* phone home: no ads, no accounts, no analytics. Your data stays on the device, with export and import when you want it. |
+| 🧪 **Proven, not hoped** | The Night games ship 7,200 solution certificates that CI replays with the real engine; if a level becomes impossible, the build fails. Night Fleet and Duck Night also rebuild every release from two fresh clones and compare the APKs byte for byte. |
+| ⌨️ **Keyboard first** | Vim keys, discoverable shortcuts and which-key hints. virsh-tui shows the exact `virsh` command before it runs, and Lictor only ever observes your agents, never types into them. |
+| ♿ **Accessible** | Colour-blind palettes, TalkBack descriptions, left-handed layouts and reduced motion, built into most of my games. |
+| 📖 **Documented** | Real screenshots, install guides, changelogs, READMEs in English and Portuguese, and mdBook sites for [virsh-tui](https://syscallbrain.github.io/virsh-tui/) and [Lictor](https://syscallbrain.github.io/lictor/). |
 | 🆓 **Open** | MIT licensed. Fork it, read it, learn from it. |
 
 ## 🛠️ Toolbox

@@ -82,10 +82,10 @@
     <text x="726" y="142" class="line l1"><tspan class="fn">openat</tspan><tspan class="p">(</tspan><tspan class="str">"ideas.md"</tspan><tspan class="p">, O_RDONLY) = </tspan><tspan class="num">3</tspan></text>
     <text x="726" y="164" class="line l2"><tspan class="fn">read</tspan><tspan class="p">(3, </tspan><tspan class="str">"a TUI for virsh"</tspan><tspan class="p">, 15) = </tspan><tspan class="num">15</tspan></text>
     <text x="726" y="186" class="line l3"><tspan class="fn">mmap</tspan><tspan class="p">(NULL, </tspan><tspan class="str">"coffee"</tspan><tspan class="p">, PROT_READ) = </tspan><tspan class="num">0x7f3c</tspan></text>
-    <text x="726" y="208" class="line l4"><tspan class="fn">execve</tspan><tspan class="p">(</tspan><tspan class="str">"cargo"</tspan><tspan class="p">, [</tspan><tspan class="str">"build"</tspan><tspan class="p">, </tspan><tspan class="str">"--release"</tspan><tspan class="p">])</tspan></text>
+    <text x="726" y="208" class="line l4"><tspan class="fn">execve</tspan><tspan class="p">(</tspan><tspan class="str">"cargo"</tspan><tspan class="p">, [</tspan><tspan class="str">"build"</tspan><tspan class="p">, </tspan><tspan class="str">"--release"</tspan><tspan class="p">]) = </tspan><tspan class="num">0</tspan></text>
     <text x="726" y="230" class="line l5"><tspan class="fn">clone</tspan><tspan class="p">(</tspan><tspan class="str">"android-app"</tspan><tspan class="p">, OFFLINE) = </tspan><tspan class="num">4242</tspan></text>
-    <text x="726" y="252" class="line l6"><tspan class="fn">connect</tspan><tspan class="p">(</tspan><tspan class="str">"ads.tracker"</tspan><tspan class="p">) = </tspan><tspan fill="#f7768e">-1 EPERM</tspan></text>
-    <text x="726" y="274" class="line l7"><tspan class="fn">write</tspan><tspan class="p">(1, </tspan><tspan class="str">"shipped ✓"</tspan><tspan class="p">, 9) = </tspan><tspan class="num">9</tspan></text>
+    <text x="726" y="252" class="line l6"><tspan class="fn">connect</tspan><tspan class="p">(</tspan><tspan class="str">"ads.tracker"</tspan><tspan class="p">) = </tspan><tspan fill="#f7768e">-1 EACCES</tspan></text>
+    <text x="726" y="274" class="line l7"><tspan class="fn">write</tspan><tspan class="p">(1, </tspan><tspan class="str">"shipped ✓"</tspan><tspan class="p">, 11) = </tspan><tspan class="num">11</tspan></text>
     <text x="726" y="300" class="line l8"><tspan class="k">+++</tspan><tspan class="p"> still running </tspan><tspan class="k">+++</tspan><tspan class="cursor" fill="#c0caf5"> ▍</tspan></text>
   </g>
 </svg>

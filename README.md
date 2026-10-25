@@ -3,6 +3,7 @@
 </a>
 
 <p align="center">
+  <a href="mailto:tiagorcorreia87@gmail.com"><img src="https://img.shields.io/badge/email-tiagorcorreia87%40gmail.com-f7768e?style=flat-square&labelColor=1a1b26&logo=gmail&logoColor=c0caf5" alt="Email: tiagorcorreia87@gmail.com"></a>
   <a href="https://github.com/SyscallBrain?tab=repositories"><img src="https://img.shields.io/badge/repos-browse-7aa2f7?style=flat-square&labelColor=1a1b26&logo=github&logoColor=c0caf5" alt="Browse repositories"></a>
   <a href="https://crates.io/crates/quotop"><img src="https://img.shields.io/crates/v/quotop?style=flat-square&label=quotop%20on%20crates.io&color=ff9e64&labelColor=1a1b26&logo=rust&logoColor=c0caf5" alt="quotop on crates.io"></a>
   <a href="https://syscallbrain.github.io/virsh-tui/"><img src="https://img.shields.io/badge/virsh--tui-docs-9ece6a?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="virsh-tui documentation"></a>
@@ -14,12 +15,12 @@
 I build software I want to use myself, and I hold it to the standard I expect as a user: private, fast, documented, and proven to work.
 
 - 🦀 **In the terminal**, I write keyboard-driven tools in **Rust** with [ratatui](https://ratatui.rs): a full manager for KVM/libvirt virtual machines, a dashboard for API quotas and a watcher for coding agents running in parallel.
-- 📱 **On Android**, I make **Kotlin + Jetpack Compose** apps and games that run fully offline, with no ads, no accounts and no tracking.
-- 🧪 **I prefer proof to promises**: my games run on deterministic engines, and every level of the Night series ships with a machine-checked solution certificate.
+- 📱 **On Android**, I make **Kotlin** apps and games, mostly with **Jetpack Compose**, that work without an internet connection: no ads, no accounts and no tracking.
+- 🧪 **I prefer proof to promises**: my games run on deterministic engines, and every level of the Night series and NeonLine ships with a machine-checked solution certificate.
 - 🐧 **Day to day**, I live on Linux and care about virtualization, tooling and small, fast binaries.
 - 🇵🇹 Some of my games are made first for **European Portuguese**, a language most word games ignore.
 
-<img src="assets/stats.svg" alt="4 Rust terminal tools, 8 Android apps and games, 7,200 certified level variants, and 0 apps that ask for internet access" width="100%">
+<img src="assets/stats.svg" alt="4 Rust terminal tools, 10 Android apps and games, 9,000 certified level variants, and 0 ads, trackers or accounts" width="100%">
 
 ## 🦀 Terminal tools
 
@@ -36,49 +37,64 @@ Keyboard-driven Rust tools built on [ratatui](https://ratatui.rs), each shipped 
   </tr>
 </table>
 
-## 🌙 The Night series
+## 🌙 The Night series and NeonLine
 
-Four offline Android games built on one foundation: a deterministic Kotlin engine shared by the game and its offline solver, 600 levels in three separately tuned difficulties, and a **solution certificate for every one of the 1,800 variants**. CI replays all of them, so an impossible level can never ship. The only permission they ask for is `VIBRATE`.
+Five offline Android games built the same way: a deterministic Kotlin engine shared by the game and its offline solver, 600 levels in three separately tuned difficulties, and a **solution certificate for each of the 1,800 variants in every game**. CI replays all of them, so an impossible level can never ship. The only permission they ask for is `VIBRATE`.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/SyscallBrain/bubble-night"><img src="assets/night/bubble-night.jpg" alt="Bubble Night: an offline bubble shooter for Android" width="100%"></a>
+      <a href="https://github.com/SyscallBrain/bubble-night"><img src="assets/games/bubble-night.jpg" alt="Bubble Night: an offline bubble shooter for Android" width="100%"></a>
       <br><b><a href="https://github.com/SyscallBrain/bubble-night">Bubble Night</a></b> · bubble shooter
       <br><sub>600 constellations across 12 orbits</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/SyscallBrain/block-night"><img src="assets/night/block-night.jpg" alt="Block Night: an offline falling-blocks game for Android" width="100%"></a>
+      <a href="https://github.com/SyscallBrain/block-night"><img src="assets/games/block-night.jpg" alt="Block Night: an offline falling-blocks game for Android" width="100%"></a>
       <br><b><a href="https://github.com/SyscallBrain/block-night">Block Night</a></b> · falling blocks
       <br><sub>600 floors across 12 Lisbon districts</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/SyscallBrain/night-fleet"><img src="assets/night/night-fleet.jpg" alt="Night Fleet: an offline naval battle for Android" width="100%"></a>
+      <a href="https://github.com/SyscallBrain/night-fleet"><img src="assets/games/night-fleet.jpg" alt="Night Fleet: an offline naval battle for Android" width="100%"></a>
       <br><b><a href="https://github.com/SyscallBrain/night-fleet">Night Fleet</a></b> · naval battle
       <br><sub>600 missions against 12 admirals who never cheat</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/SyscallBrain/duck-night"><img src="assets/night/duck-night.jpg" alt="Duck Night: photograph ducks at dusk" width="100%"></a>
+      <a href="https://github.com/SyscallBrain/duck-night"><img src="assets/games/duck-night.jpg" alt="Duck Night: photograph ducks at dusk" width="100%"></a>
       <br><b><a href="https://github.com/SyscallBrain/duck-night">Duck Night</a></b> · reflex game
       <br><sub>Photograph ducks at dusk: 600 levels, 48 birds</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SyscallBrain/neon-line"><img src="assets/games/neon-line.jpg" alt="NeonLine: an offline four-in-a-row game for Android" width="100%"></a>
+      <br><b><a href="https://github.com/SyscallBrain/neon-line">NeonLine</a></b> · four in a row
+      <br><sub>600 levels along a neon road, against 12 rivals</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SyscallBrain/neon-line#architecture"><img src="assets/games/proof.svg" alt="How every level is proven: the solver writes a certificate, CI replays it with the same engine, and the build fails if a level can no longer be won" width="100%"></a>
+      <br><b><a href="https://github.com/SyscallBrain/neon-line#architecture">How it works</a></b> · one engine, two jobs
+      <br><sub>The build fails if any level can no longer be won</sub>
     </td>
   </tr>
 </table>
 
 ## 📱 More for Android
 
-Word games written for European Portuguese, a pixel-art arcade game, and a habit tracker that keeps your data on your phone.
+Retro arcade games drawn entirely in code, word games written for European Portuguese, and a habit tracker that keeps your data on your phone.
 
 <table>
+  <tr>
+    <td width="50%"><a href="https://github.com/SyscallBrain/steel-eagle"><img src="assets/cards/steel-eagle.svg" alt="Steel Eagle: faithful 8-bit tank battle for Android with 50 stages, a level editor and two-player co-op" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SyscallBrain/Kaboom"><img src="assets/cards/kaboom.svg" alt="Kaboom: maze bomber in 16-bit pixel art for Android" width="100%"></a></td>
+  </tr>
   <tr>
     <td width="50%"><a href="https://github.com/SyscallBrain/PalavrasCruzadas"><img src="assets/cards/palavrascruzadas.svg" alt="Palavras Cruzadas: offline crossword game in European Portuguese" width="100%"></a></td>
     <td width="50%"><a href="https://github.com/SyscallBrain/SopaDeLetras"><img src="assets/cards/sopadeletras.svg" alt="Sopa de Letras: word search for Android" width="100%"></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/SyscallBrain/Kaboom"><img src="assets/cards/kaboom.svg" alt="Kaboom: maze bomber in 16-bit pixel art for Android" width="100%"></a></td>
-    <td width="50%"><a href="https://github.com/SyscallBrain/SmokeTracker"><img src="assets/cards/smoketracker.svg" alt="SmokeTracker: one-tap cigarette counter for Android" width="100%"></a></td>
+    <td colspan="2" align="center"><a href="https://github.com/SyscallBrain/SmokeTracker"><img src="assets/cards/smoketracker.svg" alt="SmokeTracker: one-tap cigarette counter for Android" width="50%"></a></td>
   </tr>
 </table>
 
@@ -98,6 +114,18 @@ Word games written for European Portuguese, a pixel-art arcade game, and a habit
 
 <img src="https://raw.githubusercontent.com/SyscallBrain/lictor/main/docs/src/images/mirror.png" alt="A Lictor mirror tab in Herdr: a workspace with its agent and server log on the left, a blocked agent asking for permission on the right" width="100%">
 
+**NeonLine**: the neon road, a duel against Sparky with his threat marked, and the rival gallery
+
+<p>
+  <img src="https://raw.githubusercontent.com/SyscallBrain/neon-line/main/docs/screenshots/home.jpg" alt="NeonLine home screen with the current stop and the neon road" width="32%">
+  <img src="https://raw.githubusercontent.com/SyscallBrain/neon-line/main/docs/screenshots/duel.jpg" alt="A NeonLine duel against Sparky with an immediate rival threat marked" width="32%">
+  <img src="https://raw.githubusercontent.com/SyscallBrain/neon-line/main/docs/screenshots/rivals.jpg" alt="NeonLine rival gallery" width="32%">
+</p>
+
+**Steel Eagle**: defending the eagle with the NES-style cross pad, one of four touch layouts
+
+<img src="https://raw.githubusercontent.com/SyscallBrain/steel-eagle/main/docs/screenshots/nes-pad.jpg" alt="Steel Eagle gameplay with the NES-style cross pad and A/B buttons" width="100%">
+
 **Kaboom**: the four worlds, every sprite drawn in code
 
 <img src="https://raw.githubusercontent.com/SyscallBrain/Kaboom/master/docs/worlds.png" alt="The four Kaboom worlds: The Meadow, The Desert, The Ice and The Castle" width="100%">
@@ -115,8 +143,8 @@ Word games written for European Portuguese, a pixel-art arcade game, and a habit
 
 | Principle | In practice |
 |---|---|
-| 🔒 **Private by default** | None of my eight Android apps asks for the `INTERNET` permission, so they *can't* phone home: no ads, no accounts, no analytics. Your data stays on the device, with export and import when you want it. |
-| 🧪 **Proven, not hoped** | The Night games ship 7,200 solution certificates that CI replays with the real engine; if a level becomes impossible, the build fails. Night Fleet and Duck Night also rebuild every release from two fresh clones and compare the APKs byte for byte. |
+| 🔒 **Private by default** | Nine of my ten Android apps don't even request the `INTERNET` permission, so they *can't* phone home. The tenth, Steel Eagle, uses the network only for two-player co-op over local Wi-Fi, phone to phone. No ads, no accounts, no analytics anywhere, and your data stays on the device. |
+| 🧪 **Proven, not hoped** | The Night games and NeonLine ship more than 9,000 solution certificates that CI replays with the real engine; if a level becomes impossible, the build fails. Steel Eagle runs a deterministic 60 Hz simulation covered by 466 JVM tests, including host/guest sync over real sockets. Night Fleet and Duck Night also rebuild every release from two fresh clones and compare the APKs byte for byte. |
 | ⌨️ **Keyboard first** | Vim keys, discoverable shortcuts and which-key hints. virsh-tui shows the exact `virsh` command before it runs, and Lictor only ever observes your agents, never types into them. |
 | ♿ **Accessible** | Colour-blind palettes, TalkBack descriptions, left-handed layouts and reduced motion, built into most of my games. |
 | 📖 **Documented** | Real screenshots, install guides, changelogs, READMEs in English and Portuguese, and mdBook sites for [virsh-tui](https://syscallbrain.github.io/virsh-tui/) and [Lictor](https://syscallbrain.github.io/lictor/). |
@@ -147,6 +175,7 @@ Word games written for European Portuguese, a pixel-art arcade game, and a habit
     <td>
       <img src="https://img.shields.io/badge/Jetpack_Compose-1a1b26?style=for-the-badge&logo=jetpackcompose&logoColor=7aa2f7" alt="Jetpack Compose">
       <img src="https://img.shields.io/badge/Material_3-1a1b26?style=for-the-badge&logo=materialdesign&logoColor=7dcfff" alt="Material 3">
+      <img src="https://img.shields.io/badge/Android_SDK-1a1b26?style=for-the-badge&logo=android&logoColor=9ece6a" alt="Android SDK">
       <img src="https://img.shields.io/badge/Room-1a1b26?style=for-the-badge&logo=sqlite&logoColor=7aa2f7" alt="Room">
       <img src="https://img.shields.io/badge/Gradle-1a1b26?style=for-the-badge&logo=gradle&logoColor=9ece6a" alt="Gradle">
     </td>
@@ -179,6 +208,10 @@ Word games written for European Portuguese, a pixel-art arcade game, and a habit
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SyscallBrain/SyscallBrain/output/snake-light.svg">
   <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/SyscallBrain/SyscallBrain/output/snake-dark.svg" width="100%">
 </picture>
+
+## 📫 Get in touch
+
+Questions, feedback or an idea worth building together? Email me at **[tiagorcorreia87@gmail.com](mailto:tiagorcorreia87@gmail.com)**. For bugs or feature requests, open an issue on the project's repository.
 
 ---
 

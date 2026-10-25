@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="4 Rust terminal tools, 8 Android apps and games, 7,200 certified level variants, and 0 apps that ask for internet access">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="4 Rust terminal tools, 10 Android apps and games, 9,000 certified level variants, and 0 ads, trackers or accounts">
   <title>SyscallBrain in numbers</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -32,8 +32,8 @@
 
   <g class="sans" text-anchor="middle">
     <g class="stat s1"><text x="150" y="82" class="n" fill="#ff9e64">4</text><text x="150" y="116" class="l">Rust terminal tools</text></g>
-    <g class="stat s2"><text x="450" y="82" class="n" fill="#bb9af7">8</text><text x="450" y="116" class="l">Android apps and games</text></g>
-    <g class="stat s3"><text x="750" y="82" class="n" fill="#9ece6a">7,200</text><text x="750" y="116" class="l">certified level variants</text></g>
-    <g class="stat s4"><text x="1050" y="82" class="n" fill="#7dcfff">0</text><text x="1050" y="116" class="l">apps that ask for internet</text></g>
+    <g class="stat s2"><text x="450" y="82" class="n" fill="#bb9af7">10</text><text x="450" y="116" class="l">Android apps and games</text></g>
+    <g class="stat s3"><text x="750" y="82" class="n" fill="#9ece6a">9,000</text><text x="750" y="116" class="l">certified level variants</text></g>
+    <g class="stat s4"><text x="1050" y="82" class="n" fill="#7dcfff">0</text><text x="1050" y="116" class="l">ads, trackers or accounts</text></g>
   </g>
 </svg>

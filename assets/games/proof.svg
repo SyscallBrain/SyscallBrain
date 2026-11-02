@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-label="How every level is proven: the game and its offline solver share one deterministic Kotlin engine. The solver writes a certificate, CI replays it, and the build fails if a level can no longer be won. 9,000 certified level variants across five games.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-label="How every level is proven: the game and its offline solver share one deterministic Kotlin engine. The solver writes a certificate, CI replays it, and the build fails if a level can no longer be won. 10,800 certified level variants across six games.">
   <title>One engine, two jobs</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -54,6 +54,6 @@
   </g>
 
   <line x1="56" y1="404" x2="944" y2="404" stroke="#292e42"/>
-  <text x="54" y="462" class="sans" font-size="54" font-weight="800" fill="#9ece6a" letter-spacing="-1">9,000</text>
-  <text x="240" y="455" class="sans" font-size="23" fill="#a9b1d6">certified level variants across five games</text>
+  <text x="54" y="462" class="sans" font-size="54" font-weight="800" fill="#9ece6a" letter-spacing="-1">10,800</text>
+  <text x="256" y="455" class="sans" font-size="23" fill="#a9b1d6">certified level variants across six games</text>
 </svg>

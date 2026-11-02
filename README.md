@@ -8,19 +8,20 @@
   <a href="https://crates.io/crates/quotop"><img src="https://img.shields.io/crates/v/quotop?style=flat-square&label=quotop%20on%20crates.io&color=ff9e64&labelColor=1a1b26&logo=rust&logoColor=c0caf5" alt="quotop on crates.io"></a>
   <a href="https://syscallbrain.github.io/virsh-tui/"><img src="https://img.shields.io/badge/virsh--tui-docs-9ece6a?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="virsh-tui documentation"></a>
   <a href="https://syscallbrain.github.io/lictor/"><img src="https://img.shields.io/badge/lictor-docs-bb9af7?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="Lictor documentation"></a>
+  <a href="https://syscallbrain.github.io/lazybw/"><img src="https://img.shields.io/badge/lazybw-docs-7dcfff?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="lazybw documentation"></a>
 </p>
 
 ## 👋 Hi, I'm Tiago
 
 I build software I want to use myself, and I hold it to the standard I expect as a user: private, fast, documented, and proven to work.
 
-- 🦀 **In the terminal**, I write keyboard-driven tools in **Rust** with [ratatui](https://ratatui.rs): a full manager for KVM/libvirt virtual machines, a dashboard for API quotas and a watcher for coding agents running in parallel.
+- 🦀 **In the terminal**, I write keyboard-driven tools in **Rust** with [ratatui](https://ratatui.rs): a full manager for KVM/libvirt virtual machines, a Bitwarden vault client, a dashboard for API quotas and a watcher for coding agents running in parallel.
 - 📱 **On Android**, I make **Kotlin** apps and games, mostly with **Jetpack Compose**, that work without an internet connection: no ads, no accounts and no tracking.
-- 🧪 **I prefer proof to promises**: my games run on deterministic engines, and every level of the Night series and NeonLine ships with a machine-checked solution certificate.
+- 🧪 **I prefer proof to promises**: my games run on deterministic engines, and every level of the Night series and NeonLine ships with a machine-checked solution certificate, more than 10,000 in total.
 - 🐧 **Day to day**, I live on Linux and care about virtualization, tooling and small, fast binaries.
 - 🇵🇹 Some of my games are made first for **European Portuguese**, a language most word games ignore.
 
-<img src="assets/stats.svg" alt="4 Rust terminal tools, 10 Android apps and games, 9,000 certified level variants, and 0 ads, trackers or accounts" width="100%">
+<img src="assets/stats.svg" alt="5 Rust terminal tools, 11 Android apps and games, 10,800 certified level variants, and 0 ads, trackers or accounts" width="100%">
 
 ## 🦀 Terminal tools
 
@@ -29,17 +30,20 @@ Keyboard-driven Rust tools built on [ratatui](https://ratatui.rs), each shipped 
 <table>
   <tr>
     <td width="50%"><a href="https://github.com/SyscallBrain/virsh-tui"><img src="assets/cards/virsh-tui.svg" alt="virsh-tui: keyboard-driven terminal UI for libvirt/virsh" width="100%"></a></td>
-    <td width="50%"><a href="https://github.com/SyscallBrain/quotop"><img src="assets/cards/quotop.svg" alt="quotop: terminal dashboard for API balances and quotas" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SyscallBrain/lazybw"><img src="assets/cards/lazybw.svg" alt="lazybw: keyboard-first terminal UI for the Bitwarden vault" width="100%"></a></td>
   </tr>
   <tr>
+    <td width="50%"><a href="https://github.com/SyscallBrain/quotop"><img src="assets/cards/quotop.svg" alt="quotop: terminal dashboard for API balances and quotas" width="100%"></a></td>
     <td width="50%"><a href="https://github.com/SyscallBrain/lictor"><img src="assets/cards/lictor.svg" alt="lictor: watches every terminal and coding agent in Herdr" width="100%"></a></td>
-    <td width="50%"><a href="https://github.com/SyscallBrain/todo-ratatui"><img src="assets/cards/todo-ratatui.svg" alt="todo-ratatui: to-do manager TUI with categories, priorities and a crash-proof trash bin" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><a href="https://github.com/SyscallBrain/todo-ratatui"><img src="assets/cards/todo-ratatui.svg" alt="todo-ratatui: to-do manager TUI with categories, priorities and a crash-proof trash bin" width="50%"></a></td>
   </tr>
 </table>
 
 ## 🌙 The Night series and NeonLine
 
-Five offline Android games built the same way: a deterministic Kotlin engine shared by the game and its offline solver, 600 levels in three separately tuned difficulties, and a **solution certificate for each of the 1,800 variants in every game**. CI replays all of them, so an impossible level can never ship. The only permission they ask for is `VIBRATE`.
+Six offline Android games built the same way: a deterministic Kotlin engine shared by the game and its offline solver, 600 levels in three separately tuned difficulties, and a **solution certificate for each of the 1,800 variants in every game**. CI replays all of them, so an impossible level can never ship. The only permission they ask for is `VIBRATE`.
 
 <table>
   <tr>
@@ -68,13 +72,20 @@ Five offline Android games built the same way: a deterministic Kotlin engine sha
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/SyscallBrain/night-crush"><img src="assets/games/night-crush.jpg" alt="NightCrush: an offline match-3 game for Android" width="100%"></a>
+      <br><b><a href="https://github.com/SyscallBrain/night-crush">NightCrush</a></b> · match-3
+      <br><sub>600 levels on the Portuguese coast at night, plus 100 puzzles</sub>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://github.com/SyscallBrain/neon-line"><img src="assets/games/neon-line.jpg" alt="NeonLine: an offline four-in-a-row game for Android" width="100%"></a>
       <br><b><a href="https://github.com/SyscallBrain/neon-line">NeonLine</a></b> · four in a row
       <br><sub>600 levels along a neon road, against 12 rivals</sub>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/SyscallBrain/neon-line#architecture"><img src="assets/games/proof.svg" alt="How every level is proven: the solver writes a certificate, CI replays it with the same engine, and the build fails if a level can no longer be won" width="100%"></a>
-      <br><b><a href="https://github.com/SyscallBrain/neon-line#architecture">How it works</a></b> · one engine, two jobs
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      <a href="https://github.com/SyscallBrain/night-crush#how-it-works"><img src="assets/games/proof.svg" alt="How every level is proven: the solver writes a certificate, CI replays it with the same engine, and the build fails if a level can no longer be won" width="50%"></a>
+      <br><b><a href="https://github.com/SyscallBrain/night-crush#how-it-works">How it works</a></b> · one engine, two jobs
       <br><sub>The build fails if any level can no longer be won</sub>
     </td>
   </tr>
@@ -114,6 +125,19 @@ Retro arcade games drawn entirely in code, word games written for European Portu
 
 <img src="https://raw.githubusercontent.com/SyscallBrain/lictor/main/docs/src/images/mirror.png" alt="A Lictor mirror tab in Herdr: a workspace with its agent and server log on the left, a blocked agent asking for permission on the right" width="100%">
 
+**lazybw**: unlocking, editing, vault health, search and copy, quick open and themes, on a sample vault
+
+<img src="https://raw.githubusercontent.com/SyscallBrain/lazybw/main/book/src/images/demo.gif" alt="lazybw in action: unlocking the vault, the item editor, vault health, search and copy, quick open and themes, on a sample vault with fictional data" width="100%">
+
+**NightCrush**: the lit coastline of Ria Formosa, a level on a hexagonal board, the world map and a three-move puzzle
+
+<p>
+  <img src="https://raw.githubusercontent.com/SyscallBrain/night-crush/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" alt="NightCrush home screen with the lit coastline of Ria Formosa" width="24%">
+  <img src="https://raw.githubusercontent.com/SyscallBrain/night-crush/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" alt="A NightCrush level in progress on a hexagonal board" width="24%">
+  <img src="https://raw.githubusercontent.com/SyscallBrain/night-crush/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" alt="The NightCrush world map as a winding path of levels" width="24%">
+  <img src="https://raw.githubusercontent.com/SyscallBrain/night-crush/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg" alt="A NightCrush puzzle with marked cells to clear in exactly three moves" width="24%">
+</p>
+
 **NeonLine**: the neon road, a duel against Sparky with his threat marked, and the rival gallery
 
 <p>
@@ -143,11 +167,11 @@ Retro arcade games drawn entirely in code, word games written for European Portu
 
 | Principle | In practice |
 |---|---|
-| 🔒 **Private by default** | Nine of my ten Android apps don't even request the `INTERNET` permission, so they *can't* phone home. The tenth, Steel Eagle, uses the network only for two-player co-op over local Wi-Fi, phone to phone. No ads, no accounts, no analytics anywhere, and your data stays on the device. |
-| 🧪 **Proven, not hoped** | The Night games and NeonLine ship more than 9,000 solution certificates that CI replays with the real engine; if a level becomes impossible, the build fails. Steel Eagle runs a deterministic 60 Hz simulation covered by 466 JVM tests, including host/guest sync over real sockets. Night Fleet and Duck Night also rebuild every release from two fresh clones and compare the APKs byte for byte. |
-| ⌨️ **Keyboard first** | Vim keys, discoverable shortcuts and which-key hints. virsh-tui shows the exact `virsh` command before it runs, and Lictor only ever observes your agents, never types into them. |
+| 🔒 **Private by default** | Ten of my eleven Android apps don't even request the `INTERNET` permission, so they *can't* phone home. The eleventh, Steel Eagle, uses the network only for two-player co-op over local Wi-Fi, phone to phone. No ads, no accounts, no analytics anywhere, and your data stays on the device. In the terminal, lazybw leaves all vault cryptography to the official Bitwarden CLI and talks to it over a private socket pair, without opening a network port. |
+| 🧪 **Proven, not hoped** | The Night games and NeonLine ship more than 10,000 solution certificates that CI replays with the real engine; if a level becomes impossible, the build fails. NightCrush's 100 puzzles are checked both ways: N moves always works and N−1 never does. Steel Eagle runs a deterministic 60 Hz simulation covered by 466 JVM tests, including host/guest sync over real sockets. Night Fleet and Duck Night also rebuild every release from two fresh clones and compare the APKs byte for byte. |
+| ⌨️ **Keyboard first** | Vim keys, discoverable shortcuts and which-key hints; in lazybw every key can be rebound. virsh-tui shows the exact `virsh` command before it runs, and Lictor only ever observes your agents, never types into them. |
 | ♿ **Accessible** | Colour-blind palettes, TalkBack descriptions, left-handed layouts and reduced motion, built into most of my games. |
-| 📖 **Documented** | Real screenshots, install guides, changelogs, READMEs in English and Portuguese, and mdBook sites for [virsh-tui](https://syscallbrain.github.io/virsh-tui/) and [Lictor](https://syscallbrain.github.io/lictor/). |
+| 📖 **Documented** | Real screenshots, install guides, changelogs, READMEs in English and Portuguese, and mdBook sites for [virsh-tui](https://syscallbrain.github.io/virsh-tui/), [Lictor](https://syscallbrain.github.io/lictor/) and [lazybw](https://syscallbrain.github.io/lazybw/). |
 | 🆓 **Open** | MIT licensed. Fork it, read it, learn from it. |
 
 ## 🛠️ Toolbox
@@ -196,6 +220,7 @@ Retro arcade games drawn entirely in code, word games written for European Portu
       <img src="https://img.shields.io/badge/GitHub_Actions-1a1b26?style=for-the-badge&logo=githubactions&logoColor=7aa2f7" alt="GitHub Actions">
       <img src="https://img.shields.io/badge/mdBook-1a1b26?style=for-the-badge&logo=mdbook&logoColor=c0caf5" alt="mdBook">
       <img src="https://img.shields.io/badge/crates.io-1a1b26?style=for-the-badge&logo=rust&logoColor=e0af68" alt="crates.io">
+      <img src="https://img.shields.io/badge/AUR-1a1b26?style=for-the-badge&logo=archlinux&logoColor=7dcfff" alt="AUR">
       <img src="https://img.shields.io/badge/Git-1a1b26?style=for-the-badge&logo=git&logoColor=ff9e64" alt="Git">
     </td>
   </tr>

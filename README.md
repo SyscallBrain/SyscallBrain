@@ -15,13 +15,13 @@
 
 I build software I want to use myself, and I hold it to the standard I expect as a user: private, fast, documented, and proven to work.
 
-- 🦀 **In the terminal**, I write keyboard-driven tools in **Rust** with [ratatui](https://ratatui.rs): a full manager for KVM/libvirt virtual machines, a Bitwarden vault client, a dashboard for API quotas and a watcher for coding agents running in parallel.
+- 🦀 **In the terminal**, I write keyboard-driven tools in **Rust** with [ratatui](https://ratatui.rs): a full manager for KVM/libvirt virtual machines, a Bitwarden vault client, a two-pane file manager for rclone, a dashboard for API quotas and a watcher for coding agents running in parallel.
 - 📱 **On Android**, I make **Kotlin** apps and games, mostly with **Jetpack Compose**, that work without an internet connection: no ads, no accounts and no tracking.
 - 🧪 **I prefer proof to promises**: my games run on deterministic engines, and every level of the Night series and NeonLine ships with a machine-checked solution certificate, more than 10,000 in total.
 - 🐧 **Day to day**, I live on Linux and care about virtualization, tooling and small, fast binaries.
 - 🇵🇹 Some of my games are made first for **European Portuguese**, a language most word games ignore.
 
-<img src="assets/stats.svg" alt="5 Rust terminal tools, 11 Android apps and games, 10,800 certified level variants, and 0 ads, trackers or accounts" width="100%">
+<img src="assets/stats.svg" alt="6 Rust terminal tools, 11 Android apps and games, 10,800 certified level variants, and 0 ads, trackers or accounts" width="100%">
 
 ## 🦀 Terminal tools
 
@@ -33,11 +33,12 @@ Keyboard-driven Rust tools built on [ratatui](https://ratatui.rs), each shipped 
     <td width="50%"><a href="https://github.com/SyscallBrain/lazybw"><img src="assets/cards/lazybw.svg" alt="lazybw: keyboard-first terminal UI for the Bitwarden vault" width="100%"></a></td>
   </tr>
   <tr>
+    <td width="50%"><a href="https://github.com/SyscallBrain/ratclone"><img src="assets/cards/ratclone.svg" alt="ratclone: keyboard-driven terminal UI for rclone" width="100%"></a></td>
     <td width="50%"><a href="https://github.com/SyscallBrain/quotop"><img src="assets/cards/quotop.svg" alt="quotop: terminal dashboard for API balances and quotas" width="100%"></a></td>
-    <td width="50%"><a href="https://github.com/SyscallBrain/lictor"><img src="assets/cards/lictor.svg" alt="lictor: watches every terminal and coding agent in Herdr" width="100%"></a></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><a href="https://github.com/SyscallBrain/todo-ratatui"><img src="assets/cards/todo-ratatui.svg" alt="todo-ratatui: to-do manager TUI with categories, priorities and a crash-proof trash bin" width="50%"></a></td>
+    <td width="50%"><a href="https://github.com/SyscallBrain/lictor"><img src="assets/cards/lictor.svg" alt="lictor: watches every terminal and coding agent in Herdr" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SyscallBrain/todo-ratatui"><img src="assets/cards/todo-ratatui.svg" alt="todo-ratatui: to-do manager TUI with categories, priorities and a crash-proof trash bin" width="100%"></a></td>
   </tr>
 </table>
 
@@ -117,6 +118,10 @@ Retro arcade games drawn entirely in code, word games written for European Portu
 
 <img src="https://raw.githubusercontent.com/SyscallBrain/virsh-tui/main/book/src/images/dashboard.png" alt="virsh-tui domains dashboard" width="100%">
 
+**ratclone**: two accounts side by side, with a copy of three photos still running
+
+<img src="https://raw.githubusercontent.com/SyscallBrain/ratclone/main/docs/images/dual-pane.png" alt="ratclone with two panes: personal:Photos/2025 on the left, the work account on the right, and a copy running" width="100%">
+
 **quotop**: balances and quotas at a glance
 
 <img src="https://raw.githubusercontent.com/SyscallBrain/quotop/main/docs/screenshot.svg" alt="quotop showing the balances and quotas of several API services" width="100%">
@@ -167,9 +172,9 @@ Retro arcade games drawn entirely in code, word games written for European Portu
 
 | Principle | In practice |
 |---|---|
-| 🔒 **Private by default** | Ten of my eleven Android apps don't even request the `INTERNET` permission, so they *can't* phone home. The eleventh, Steel Eagle, uses the network only for two-player co-op over local Wi-Fi, phone to phone. No ads, no accounts, no analytics anywhere, and your data stays on the device. In the terminal, lazybw leaves all vault cryptography to the official Bitwarden CLI and talks to it over a private socket pair, without opening a network port. |
+| 🔒 **Private by default** | Ten of my eleven Android apps don't even request the `INTERNET` permission, so they *can't* phone home. The eleventh, Steel Eagle, uses the network only for two-player co-op over local Wi-Fi, phone to phone. No ads, no accounts, no analytics anywhere, and your data stays on the device. In the terminal, lazybw leaves all vault cryptography to the official Bitwarden CLI and talks to it over a private socket pair, without opening a network port. ratclone does the same with rclone: it runs its own `rclone rcd` on a private unix socket. |
 | 🧪 **Proven, not hoped** | The Night games and NeonLine ship more than 10,000 solution certificates that CI replays with the real engine; if a level becomes impossible, the build fails. NightCrush's 100 puzzles are checked both ways: N moves always works and N−1 never does. Steel Eagle runs a deterministic 60 Hz simulation covered by 466 JVM tests, including host/guest sync over real sockets. Night Fleet and Duck Night also rebuild every release from two fresh clones and compare the APKs byte for byte. |
-| ⌨️ **Keyboard first** | Vim keys, discoverable shortcuts and which-key hints; in lazybw every key can be rebound. virsh-tui shows the exact `virsh` command before it runs, and Lictor only ever observes your agents, never types into them. |
+| ⌨️ **Keyboard first** | Vim keys, discoverable shortcuts and which-key hints; in lazybw every key can be rebound. virsh-tui shows the exact `virsh` command before it runs, and ratclone shows the `rclone` command behind every operation. Lictor only ever observes your agents, never types into them. |
 | ♿ **Accessible** | Colour-blind palettes, TalkBack descriptions, left-handed layouts and reduced motion, built into most of my games. |
 | 📖 **Documented** | Real screenshots, install guides, changelogs, READMEs in English and Portuguese, and mdBook sites for [virsh-tui](https://syscallbrain.github.io/virsh-tui/), [Lictor](https://syscallbrain.github.io/lictor/) and [lazybw](https://syscallbrain.github.io/lazybw/). |
 | 🆓 **Open** | MIT licensed. Fork it, read it, learn from it. |

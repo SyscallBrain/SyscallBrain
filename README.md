@@ -6,6 +6,7 @@
   <a href="mailto:tiagorcorreia87@gmail.com"><img src="https://img.shields.io/badge/email-tiagorcorreia87%40gmail.com-f7768e?style=flat-square&labelColor=1a1b26&logo=gmail&logoColor=c0caf5" alt="Email: tiagorcorreia87@gmail.com"></a>
   <a href="https://github.com/SyscallBrain?tab=repositories"><img src="https://img.shields.io/badge/repos-browse-7aa2f7?style=flat-square&labelColor=1a1b26&logo=github&logoColor=c0caf5" alt="Browse repositories"></a>
   <a href="https://crates.io/crates/quotop"><img src="https://img.shields.io/crates/v/quotop?style=flat-square&label=quotop%20on%20crates.io&color=ff9e64&labelColor=1a1b26&logo=rust&logoColor=c0caf5" alt="quotop on crates.io"></a>
+  <a href="https://crates.io/crates/ratclone"><img src="https://img.shields.io/crates/v/ratclone?style=flat-square&label=ratclone%20on%20crates.io&color=73daca&labelColor=1a1b26&logo=rust&logoColor=c0caf5" alt="ratclone on crates.io"></a>
   <a href="https://syscallbrain.github.io/virsh-tui/"><img src="https://img.shields.io/badge/virsh--tui-docs-9ece6a?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="virsh-tui documentation"></a>
   <a href="https://syscallbrain.github.io/lictor/"><img src="https://img.shields.io/badge/lictor-docs-bb9af7?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="Lictor documentation"></a>
   <a href="https://syscallbrain.github.io/lazybw/"><img src="https://img.shields.io/badge/lazybw-docs-7dcfff?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="lazybw documentation"></a>

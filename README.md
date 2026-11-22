@@ -4,14 +4,8 @@
 
 <p align="center">
   <a href="mailto:tiagorcorreia87@gmail.com"><img src="https://img.shields.io/badge/email-tiagorcorreia87%40gmail.com-f7768e?style=flat-square&labelColor=1a1b26&logo=gmail&logoColor=c0caf5" alt="Email: tiagorcorreia87@gmail.com"></a>
-  <a href="https://github.com/SyscallBrain?tab=repositories"><img src="https://img.shields.io/badge/repos-browse-7aa2f7?style=flat-square&labelColor=1a1b26&logo=github&logoColor=c0caf5" alt="Browse repositories"></a>
-  <a href="https://crates.io/crates/quotop"><img src="https://img.shields.io/crates/v/quotop?style=flat-square&label=quotop%20on%20crates.io&color=ff9e64&labelColor=1a1b26&logo=rust&logoColor=c0caf5" alt="quotop on crates.io"></a>
-  <a href="https://crates.io/crates/ratclone"><img src="https://img.shields.io/crates/v/ratclone?style=flat-square&label=ratclone%20on%20crates.io&color=73daca&labelColor=1a1b26&logo=rust&logoColor=c0caf5" alt="ratclone on crates.io"></a>
-  <a href="https://crates.io/crates/virsh-tui"><img src="https://img.shields.io/crates/v/virsh-tui?style=flat-square&label=virsh-tui%20on%20crates.io&color=9ece6a&labelColor=1a1b26&logo=rust&logoColor=c0caf5" alt="virsh-tui on crates.io"></a>
-  <a href="https://crates.io/crates/lazybw"><img src="https://img.shields.io/crates/v/lazybw?style=flat-square&label=lazybw%20on%20crates.io&color=7dcfff&labelColor=1a1b26&logo=rust&logoColor=c0caf5" alt="lazybw on crates.io"></a>
-  <a href="https://syscallbrain.github.io/virsh-tui/"><img src="https://img.shields.io/badge/virsh--tui-docs-9ece6a?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="virsh-tui documentation"></a>
-  <a href="https://syscallbrain.github.io/lictor/"><img src="https://img.shields.io/badge/lictor-docs-bb9af7?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="Lictor documentation"></a>
-  <a href="https://syscallbrain.github.io/lazybw/"><img src="https://img.shields.io/badge/lazybw-docs-7dcfff?style=flat-square&labelColor=1a1b26&logo=mdbook&logoColor=c0caf5" alt="lazybw documentation"></a>
+  <a href="https://github.com/SyscallBrain?tab=followers"><img src="https://img.shields.io/github/followers/SyscallBrain?style=flat-square&label=followers&color=7aa2f7&labelColor=1a1b26&logo=github&logoColor=c0caf5" alt="GitHub followers"></a>
+  <img src="https://img.shields.io/badge/based_in-Portugal-9ece6a?style=flat-square&labelColor=1a1b26&logo=googlemaps&logoColor=c0caf5" alt="Based in Portugal">
 </p>
 
 ## 👋 Hi, I'm Tiago
@@ -19,12 +13,12 @@
 I build software I want to use myself, and I hold it to the standard I expect as a user: private, fast, documented, and proven to work.
 
 - 🦀 **In the terminal**, I write keyboard-driven tools in **Rust** with [ratatui](https://ratatui.rs): a full manager for KVM/libvirt virtual machines, a Bitwarden vault client, a two-pane file manager for rclone, a dashboard for API quotas and a watcher for coding agents running in parallel.
-- 📱 **On Android**, I make **Kotlin** apps and games, mostly with **Jetpack Compose**, that work without an internet connection: no ads, no accounts and no tracking.
+- 📱 **On Android**, I make **Kotlin** apps and games, mostly with **Jetpack Compose**, that work without an internet connection: no ads, no accounts and no tracking. The one exception is ZeroDroid, a remote control for my own ZeroClaw AI agents.
 - 🧪 **I prefer proof to promises**: my games run on deterministic engines, and every level of the Night series and NeonLine ships with a machine-checked solution certificate, more than 10,000 in total.
 - 🐧 **Day to day**, I live on Linux and care about virtualization, tooling and small, fast binaries.
 - 🇵🇹 Some of my games are made first for **European Portuguese**, a language most word games ignore.
 
-<img src="assets/stats.svg" alt="6 Rust terminal tools, 11 Android apps and games, 10,800 certified level variants, and 0 ads, trackers or accounts" width="100%">
+<img src="assets/stats.svg" alt="6 Rust terminal tools, 12 Android apps and games, 10,800 certified level variants, and 0 ads, trackers or accounts" width="100%">
 
 ## 🦀 Terminal tools
 
@@ -97,7 +91,7 @@ Six offline Android games built the same way: a deterministic Kotlin engine shar
 
 ## 📱 More for Android
 
-Retro arcade games drawn entirely in code, word games written for European Portuguese, and a habit tracker that keeps your data on your phone.
+Retro arcade games drawn entirely in code, word games written for European Portuguese, a habit tracker that keeps your data on your phone, and a pocket client for my AI agents.
 
 <table>
   <tr>
@@ -109,7 +103,8 @@ Retro arcade games drawn entirely in code, word games written for European Portu
     <td width="50%"><a href="https://github.com/SyscallBrain/SopaDeLetras"><img src="assets/cards/sopadeletras.svg" alt="Sopa de Letras: word search for Android" width="100%"></a></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><a href="https://github.com/SyscallBrain/SmokeTracker"><img src="assets/cards/smoketracker.svg" alt="SmokeTracker: one-tap cigarette counter for Android" width="50%"></a></td>
+    <td width="50%"><a href="https://github.com/SyscallBrain/zerodroid"><img src="assets/cards/zerodroid.svg" alt="ZeroDroid: native Android client for the ZeroClaw daemon" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SyscallBrain/SmokeTracker"><img src="assets/cards/smoketracker.svg" alt="SmokeTracker: one-tap cigarette counter for Android" width="100%"></a></td>
   </tr>
 </table>
 
@@ -162,6 +157,15 @@ Retro arcade games drawn entirely in code, word games written for European Portu
 
 <img src="https://raw.githubusercontent.com/SyscallBrain/Kaboom/master/docs/worlds.png" alt="The four Kaboom worlds: The Meadow, The Desert, The Ice and The Castle" width="100%">
 
+**ZeroDroid**: the daemon at a glance, a chat with a tool call, code sessions and the config editor
+
+<p>
+  <img src="https://raw.githubusercontent.com/SyscallBrain/zerodroid/main/docs/screenshots/home.jpg" alt="ZeroDroid home: daemon status, memory, CPU, uptime and sessions" width="24%">
+  <img src="https://raw.githubusercontent.com/SyscallBrain/zerodroid/main/docs/screenshots/chat.jpg" alt="A ZeroDroid chat with an agent, with a shell tool call and a formatted answer" width="24%">
+  <img src="https://raw.githubusercontent.com/SyscallBrain/zerodroid/main/docs/screenshots/code.jpg" alt="The ZeroDroid Code tab with folder-rooted sessions" width="24%">
+  <img src="https://raw.githubusercontent.com/SyscallBrain/zerodroid/main/docs/screenshots/config.jpg" alt="The ZeroDroid Config tab with searchable daemon settings" width="24%">
+</p>
+
 **Palavras Cruzadas** and **Sopa de Letras**
 
 <p>
@@ -175,7 +179,7 @@ Retro arcade games drawn entirely in code, word games written for European Portu
 
 | Principle | In practice |
 |---|---|
-| 🔒 **Private by default** | Ten of my eleven Android apps don't even request the `INTERNET` permission, so they *can't* phone home. The eleventh, Steel Eagle, uses the network only for two-player co-op over local Wi-Fi, phone to phone. No ads, no accounts, no analytics anywhere, and your data stays on the device. In the terminal, lazybw leaves all vault cryptography to the official Bitwarden CLI and talks to it over a private socket pair, without opening a network port. ratclone does the same with rclone: it runs its own `rclone rcd` on a private unix socket. |
+| 🔒 **Private by default** | Ten of my twelve Android apps don't even request the `INTERNET` permission, so they *can't* phone home. Steel Eagle uses the network only for two-player co-op over local Wi-Fi, phone to phone, and ZeroDroid talks only to your own ZeroClaw daemon, over mutual TLS 1.3 with a client key that never leaves the Android Keystore. No ads, no accounts, no analytics anywhere, and your data stays on the device. In the terminal, lazybw leaves all vault cryptography to the official Bitwarden CLI and talks to it over a private socket pair, without opening a network port. ratclone does the same with rclone: it runs its own `rclone rcd` on a private unix socket. |
 | 🧪 **Proven, not hoped** | The Night games and NeonLine ship more than 10,000 solution certificates that CI replays with the real engine; if a level becomes impossible, the build fails. NightCrush's 100 puzzles are checked both ways: N moves always works and N−1 never does. Steel Eagle runs a deterministic 60 Hz simulation covered by 466 JVM tests, including host/guest sync over real sockets. Night Fleet and Duck Night also rebuild every release from two fresh clones and compare the APKs byte for byte. |
 | ⌨️ **Keyboard first** | Vim keys, discoverable shortcuts and which-key hints; in lazybw every key can be rebound. virsh-tui shows the exact `virsh` command before it runs, and ratclone shows the `rclone` command behind every operation. Lictor only ever observes your agents, never types into them. |
 | ♿ **Accessible** | Colour-blind palettes, TalkBack descriptions, left-handed layouts and reduced motion, built into most of my games. |

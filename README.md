@@ -4,8 +4,6 @@
 
 <p align="center">
   <a href="mailto:tiagorcorreia87@gmail.com"><img src="https://img.shields.io/badge/email-tiagorcorreia87%40gmail.com-f7768e?style=flat-square&labelColor=1a1b26&logo=gmail&logoColor=c0caf5" alt="Email: tiagorcorreia87@gmail.com"></a>
-  <a href="https://github.com/SyscallBrain?tab=followers"><img src="https://img.shields.io/github/followers/SyscallBrain?style=flat-square&label=followers&color=7aa2f7&labelColor=1a1b26&logo=github&logoColor=c0caf5" alt="GitHub followers"></a>
-  <img src="https://img.shields.io/badge/based_in-Portugal-9ece6a?style=flat-square&labelColor=1a1b26&logo=googlemaps&logoColor=c0caf5" alt="Based in Portugal">
 </p>
 
 ## 👋 Hi, I'm Tiago
